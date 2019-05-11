@@ -1,9 +1,15 @@
-#user {
-    margin-top: 150px;
-    margin-left: 40%;
+.inputField {
+    margin-left: 45%;
+    
+}
+.inputForm {
+    padding-top: 70px;
 }
 
-#pass {
-    margin-top: 30px;
-    margin-left: 40%;
+.inputButton {
+    margin-left: 48%;
+}
+
+p{ 
+    text-align: center;
 }
