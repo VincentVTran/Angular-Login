@@ -25,7 +25,7 @@ import {MatButtonModule} from '@angular/material/button';
     SignInModule, //Custom module
 
     MatMenuModule, //Angular Material Module
-    MatButtonModule
+    MatButtonModule,
     
   ],
   providers: [],
