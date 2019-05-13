@@ -6,17 +6,17 @@ import { InfoInputComponent } from './components/info-input/info-input.component
 //Angular Material
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
-import {FormsModule, ReactiveFormsModule } from '@angular/forms'
+import {ReactiveFormsModule } from '@angular/forms'
 @NgModule({
   declarations: [SignInComponent, InfoInputComponent],
   imports: [
     CommonModule,
+
+    //Angular form stuff
+    ReactiveFormsModule, //Allows the use of FormGroup and FormController
     MatInputModule, //Angular Input Module
     MatButtonModule, //Angular Button Module
-
-    FormsModule, //Angular form stuff
-    ReactiveFormsModule 
   ],
-  exports: [SignInComponent]
+  exports: [SignInComponent],
 })
 export class SignInModule { }

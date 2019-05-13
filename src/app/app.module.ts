@@ -10,6 +10,8 @@ import { MenuComponent } from './menu/menu.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 
+//HTTP Client
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import {MatButtonModule} from '@angular/material/button';
 
     MatMenuModule, //Angular Material Module
     MatButtonModule,
+
+    HttpClientModule,//HTTP Client Module (Allows access to HTTPClient Request)
     
   ],
   providers: [],
